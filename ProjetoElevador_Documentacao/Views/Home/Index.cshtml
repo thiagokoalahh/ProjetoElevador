@@ -1,0 +1,166 @@
+﻿@{
+    ViewData["Title"] = "Documentação Elevador";
+}
+
+<style>
+    hr {
+        background-color: black;
+        height: 3px;
+    }
+</style>
+<div>
+    <h1 class="display-4">Documentação Projeto Elevador</h1>
+    <h2 class="display-4">Samsung Ocean, MS-DEV</h2>
+    <br><hr>
+    <div>
+        <p>
+            O projeto é um console que tem como função o gerenciamento 
+            de um elevador, ele têm as funções de inicializar, entrar, sair, subir e descer.
+            <br>
+            Feito no modelo MVC (Model-View-Contoller)
+        </p>
+
+    </div>
+
+    <div>
+        <hr>
+        <div>
+            <h2>Model</h2>
+            <h3>- Elevador.cs</h3>
+            <p>
+                Classe dedicada para armazenar os dados do Elevador.
+            </p>
+            <h4>Propriedades</h4>
+            <ul>
+                <li>
+                    INT <strong>Andares</strong> guarda a quantidade de andares que o prédio possui;
+                </li>
+                <li>
+                    INT <strong>Andar</strong> guarda o andar em que o elevador se encontra;
+                </li>
+                <li>
+                    INT <strong>Capacidade</strong> indica a quantidade de pessoas que o elevador suporta.
+                </li>
+                <li>
+                    INT <strong>Pessoas</strong> indica quantas pessoas estão no elevador no momento.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <br><hr>
+            <h2>Controller</h2>
+            <h3>- ElevadorController.cs</h3>
+            <p>
+                Classe dedicada para fazer a conexão da View com a Model.
+            </p>
+            <h4>Propriedades</h4>
+            <ul>
+                <li>
+                    Instância da classe <strong>Elevador</strong>, necessária para interagir com a Model.
+                </li>
+            </ul>
+            <h4>Métodos ()</h4>
+            <ul>
+                <li>
+                    <strong>Inicializar()</strong>
+                    <p>
+                        Método inicial, tem a função de definir a capacidade de pessoas do elevador e
+                        a quantidade de andares.
+                    </p>
+                </li>                
+                <li>
+                    <strong>Entrar()</strong>
+                    <p>
+                        Adiciona uma pessoa ao elevador. Caso esteja cheio, é informado ao usuário
+                        que a capacidade máxima foi atingida.
+                    </p>
+                </li>
+                <li>
+                    <strong>Sair()</strong>
+                    <p>
+                        Remove uma pessoa do elevador. Caso esteja vazio, é informado ao usuário
+                        que não há ninguém no elevador.
+                    </p>
+                </li>                
+                <li>
+                    <strong>Subir()</strong>
+                    <p>
+                        O elevador sobe um andar. Caso esteja no último, retorna uma mensagem
+                        dizendo que já está no último andar.
+                    </p>
+                </li>
+                <li>
+                    <strong>Descer()</strong>
+                    <p>
+                        O elevador desce um andar. Caso esteja no térreo, retorna uma mensagem
+                        dizendo que já está no térreo.
+                    </p>
+                </li>
+                <li>
+                    <strong>Mensagem Ok() e Erro()</strong>
+                    <p>
+                        Métodos auxiliares para facilitar a visualização do usuário.<br>
+                        Quando um método for bem sucedido, retorna um OK na cor verde antes de exibir a mensagem.
+                        Caso contrário, retorna um ERRO em vermelho.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <br><hr>
+            <h2>View</h2>
+            <h3>- ElevadorView.cs</h3>
+            <p>
+                Classe dedicada para a interagir com o usuário.
+            </p>
+            <h4>Propriedades</h4>
+            <ul>
+                <li>
+                    Instância da classe <strong>ElevadorController</strong>, 
+                    necessária para interagir com a Controller.
+                </li>
+            </ul>
+            <h4>Métodos ()</h4>
+            <ul>
+                <li>
+                    <strong>Menu()</strong>
+                    <p>
+                        Menu tem a função de: 
+                        <ol>
+                            <li>
+                                Exibir o Status atual do Elevador, 
+                                como qual andar e quantas pessoas estão dentro.
+                            </li>
+                            <li>
+                                Exibir as opções disponíveis para o usurário, 
+                                como adicinar uma pessoa ou subir um andar.
+                            </li>
+                            <li>
+                                Ler a opção escolhida pelo usuário, 
+                                e então chamar o método correspondente da controller.
+                            </li>
+                        </ol>
+                    </p>
+                </li>                
+            </ul>
+        </div>
+        <div>
+            <br><hr>
+            <h2>Program.cs</h2>
+            <p>
+                Respónsavel por iniciar o console, onde está lozalizada a Main().
+            </p>
+            <ul>
+                <li>
+                    Instância de <strong>ElevadorView.cs</strong>;
+                </li>
+                <li>
+                    Chamada do método Menu() para inciar o elevador.
+                </li>
+            </ul>
+
+        </div> 
+    </div>
+    <br><hr>
+    <h4>Autor: Thiago Silva</h4>
+</div>

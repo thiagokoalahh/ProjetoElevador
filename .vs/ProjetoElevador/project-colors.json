@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d591e24f-980b-4849-8c25-747063f0ad83": {
+      "ProjectGuid": "d591e24f-980b-4849-8c25-747063f0ad83",
+      "DisplayName": "ProjetoElevador",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "0b569c9b-3539-4785-a970-7515815c3c5b": {
+      "ProjectGuid": "0b569c9b-3539-4785-a970-7515815c3c5b",
+      "DisplayName": "ProjetoElevador_Documentacao",
+      "ColorIndex": 1
+    },
+    "864ece56-e7dd-45ce-b7bd-2656fd6edc6e": {
+      "ProjectGuid": "864ece56-e7dd-45ce-b7bd-2656fd6edc6e",
+      "DisplayName": "teste",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

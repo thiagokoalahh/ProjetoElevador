@@ -1,0 +1,16 @@
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\bin\Debug\net5.0\ProjetoElevador.exe
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\bin\Debug\net5.0\ProjetoElevador.deps.json
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\bin\Debug\net5.0\ProjetoElevador.runtimeconfig.json
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\bin\Debug\net5.0\ProjetoElevador.runtimeconfig.dev.json
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\bin\Debug\net5.0\ProjetoElevador.dll
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\bin\Debug\net5.0\ref\ProjetoElevador.dll
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\bin\Debug\net5.0\ProjetoElevador.pdb
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.csproj.AssemblyReference.cache
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.AssemblyInfoInputs.cache
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.AssemblyInfo.cs
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.csproj.CoreCompileInputs.cache
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.dll
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ref\ProjetoElevador.dll
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.pdb
+D:\Code\Ocean Samsung\MS-DEV\Projeto\ProjetoElevador\ProjetoElevador\obj\Debug\net5.0\ProjetoElevador.genruntimeconfig.cache
