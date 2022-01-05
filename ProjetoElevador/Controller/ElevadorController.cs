@@ -29,6 +29,7 @@ namespace ProjetoElevador.Controller
                 Console.WriteLine(e.Message);
                 Console.WriteLine("Por favor, insira apenas números inteiros.");
                 Console.WriteLine();
+                // Em caso de erro, goto volta o programa para o estado de receber os dados do elevador.
                 goto Try;
             }
         }
